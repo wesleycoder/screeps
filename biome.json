@@ -5,6 +5,9 @@
   },
   "linter": {
     "enabled": true,
+    "ignore": [
+      "src/polyfills/*.js"
+    ],
     "rules": {
       "recommended": true
     }
