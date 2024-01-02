@@ -7,9 +7,12 @@ const config = (api) => {
         "@babel/env",
         {
           ignoreBrowserslistConfig: true,
-          useBuiltIns: false,
+          useBuiltIns: "entry",
           forceAllTransforms: true,
           corejs: 3,
+          targets: {
+            browsers: ["last 20 versions", "ie >= 4"],
+          },
         },
       ],
     ],

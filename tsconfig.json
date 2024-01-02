@@ -15,6 +15,7 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "allowJs": true,
+    "checkJs": false,
     "types": ["node", "screeps"],
     "typeRoots": ["node_modules/@types", "./types"],
     "outDir": "dist",
